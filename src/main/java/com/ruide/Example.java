@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Example {
     public static void main(String[] args){
-
+        System.out.println("hello world~~~~");
         File file = new File("g:/a.txt");
         if (file.exists()) {
             System.out.println("this is my exists file");
